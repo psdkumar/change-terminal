@@ -4,10 +4,14 @@ Add Shortcuts for commands in terminal.
 And change the appearance of terminal
 
 ## Steps :
-* Download the three files and place them in home folder.
-* Add the following line at the end of your .bashrc file(hidden) which is located in your home folder.
+* Open .bashrc file(hidden) which is located in your **Home** folder. Use **Ctrl+h** to see hidden files.
+* Add the following lines at the end of your .bashrc file.
 
-  ```  source ~/.rcbash  ```
+  ```  
+  source path/to/change-terminal directory/.rcbash
+  source path/to/change-terminal directory/git-completion.bash
+  source path/to/change-terminal directory/git-prompt.sh
+  ```
 * Thats it !! Now restart your terminal.
 
 ## Note :
