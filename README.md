@@ -4,7 +4,7 @@ Add Shortcuts for commands in terminal.
 And change the appearance of terminal
 
 ## Steps :
-* Add the following line at the end of your .bashrc file(hidden) which is located in your home folder.
+* Add the following lines at the end of your .bashrc file(hidden) which is located in your home folder. Replace path/to/file/ with the folder path in which these files are located.
 
   ```  
   source path/to/file/.rcbash
