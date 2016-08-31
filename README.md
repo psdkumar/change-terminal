@@ -15,7 +15,7 @@ And change the appearance of terminal
   
   ```
   Ex :
-  alias your_shortcut=actual_command
+  alias your_shortcut='actual_command'  (with quotes)
   ```
 * If you want to add any new shortcuts, you can add them in .rcbash file.
 
