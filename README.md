@@ -1,6 +1,7 @@
 # change-terminal
 Add Shortcuts for commands in terminal.
-Change the appearance of terminal
+
+And change the appearance of terminal
 
 ## Steps :
 * Download the three files and place them in home folder.
@@ -10,13 +11,13 @@ Change the appearance of terminal
 * Thats it !! Now restart your terminal.
 
 ## Note :
-* You can see the available shortcuts for terminal commands in .rcbash file
+* You can see the available shortcuts for terminal commands in .rcbash file.
   
   ```
   Ex :
   alias your_shortcut=actual_command
   ```
-* If you want to add any new shortcuts, you can add them in .rcbash file
+* If you want to add any new shortcuts, you can add them in .rcbash file.
 
   ```
   Ex :
