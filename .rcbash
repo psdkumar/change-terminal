@@ -1,5 +1,5 @@
-source ~/git-prompt.sh
-source ~/git-completion.bash
+#source ~/git-prompt.sh
+#source ~/git-completion.bash
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
 export GIT_PS1_SHOWSTASHSTATE=true
@@ -8,6 +8,7 @@ PS1=$'\[\e[0m\]\u250c\u2500[$([[ $? != 0 ]] && echo "\[\e[1;31m\]\u2717\[\e[0m\]
 
 # custom alias list
 # ls, clear etc.
+alias clr='clear'
 alias cls='clear && ls'
 alias ls='ls --color=always'
 alias l='ls -lFh'
@@ -21,6 +22,10 @@ alias ll='ls -l'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
+
+# Update
+alias supdate='sudo apt-get update'
+alias supgrade='sudo apt-get upgrade'
 
 # tmux
 alias ta='tmux attach -t'
