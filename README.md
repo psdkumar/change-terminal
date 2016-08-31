@@ -17,6 +17,7 @@ Change the appearance of terminal
   alias your_shortcut=actual_command
   ```
 * If you want to add any new shortcuts, you can add them in .rcbash file
+
   ```
   Ex :
   alias ga='git add'
